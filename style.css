@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ee6e3c, #6291e3);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    background: rgba(248, 251, 250, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(125, 33, 33, 0.2);
+    text-align: center;    
+}
+
+.container h2{
+    margin-bottom: 20px;
+    
+}
+#pwLength{
+    margin-bottom: 10px;
+}
+
+.container input[type="number"] {
+    width: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.container button{
+    margin: 15px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.output {
+    margin: 20px 0;
+    font-size: 1.2em;
+    background: rgba(185, 28, 65, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
